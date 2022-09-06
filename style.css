@@ -1,0 +1,206 @@
+@font-face{
+  font-family: "Nunito";
+  src: url("assets/Nunito-Regular.ttf");
+  font-weight: normal;
+}
+/*regular-italic*/
+@font-face{
+  font-family: "Nunito";
+  font-style: italic;
+  src: url("assets/Nunito-Italic.ttf");
+}
+/*medium*/
+@font-face{
+  font-family: "Nunito";
+  font-weight: bold;
+  src: url("assets/Nunito-Medium.ttf");
+}
+/*semibold*/
+@font-face{
+  font-family: "Nunito";
+  font-weight: bolder;
+  src: url("assets/Nunito-SemiBold.ttf");
+}
+body{
+  font-family: "Nunito", sans-serif;
+  background-color: #272738;
+}
+#content{
+  background-color: #272738;
+  padding: 80px 50px;
+}
+#sidebar{
+  background-color: none;
+  margin-bottom: 40px;
+}
+.sidebarItem{
+  transition: transform ease 0.3s;
+}
+.sidebarItem:hover{
+  transform: translate(8px, 0px);
+}
+#sidebar a{
+  font-size: 25px;
+  line-height: 40px;
+  color: #F96F5C;
+  text-decoration: none;
+  font-weight: bold;
+}
+#scrollableArea{
+  background-color: none;
+}
+#intro{
+  background-color: none;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #d1d1e6;
+  font-weight: normal;
+}
+#intro h1{
+  font-weight: bolder;
+  font-size: 100px;
+  color: #F96F5C;
+  line-height: 100px;
+}
+#projects{
+  background-color: none;
+}
+.header{
+  color: #F96F5C;
+  font-size: 40px;
+  font-weight: bolder;
+}
+hr{
+  border: 2px solid #d1d1e6;
+}
+.projectDisplay{
+  background-color: none;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.projectHeader{
+  color: #F96F5C;
+  font-weight: bold;
+}
+.projectSummary{
+  color: #d1d1e6;
+  font-weight: normal;
+}
+.projectText{
+  background-color: none;
+  padding: 15px;
+}
+.summaryBox{
+  background-color: #36364d;
+  padding: 15px;
+  border-radius: 4px;
+}
+.techUsed{
+  font-family: monospace;
+  color: #F96F5C;
+  font-size: 12px;
+  padding-top: 15px;
+}
+.projectLinks{
+  background-color: none;
+  margin-top: 5px;
+}
+.projectIcon{
+  display: inline-block;
+  margin: 0px 5px;
+  width: 24px;
+  height: 24px;
+}
+.footerLinks{
+  display: inline-block;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}
+.email{
+  background-image: url("assets/email.png");
+  background-size: cover;
+  transition: transform ease 0.3s;
+}
+.email:hover{
+  transform: translate(0, -3px);
+  background-image: url("assets/emailHover.png");
+}
+.github{
+  background-image: url("assets/github.png");
+  background-size: cover;
+  transition: transform ease 0.3s;
+}
+.github:hover{
+  transform: translate(0, -3px);
+  background-image: url("assets/githubHover.png");
+}
+.website{
+  background-image: url("assets/link.png");
+  background-size: cover;
+  transition: transform ease 0.3s;
+}
+.website:hover{
+  transform: translate(0, -3px);
+  background-image: url("assets/linkHover.png");
+}
+.imageGif{
+  display: none;
+}
+.stillImage{
+  display: block;
+}
+.projectImage:hover .imageGif{
+  display: block;
+}
+.projectImage:hover .stillImage{
+  display: none;
+}
+#aboutText{
+  font-size: 20px;
+  color: #d1d1e6;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+#footer{
+  background-color: none;
+  height: 80px;
+  font-size: 16px;
+}
+#contactme{
+  height: 80px;
+  width: 200px;
+  border: 1px solid #F96F5C;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+#contactme p{
+  font-family: monospace;
+  font-size: 18px;
+  color: #F96F5C;
+  float: right;
+}
+#emailContact{
+  float: left;
+  width: 27px;
+  height: 27px;
+  background-image: url("assets/email.png");
+  background-size: cover;
+}
+#contactText{
+  margin: 0px auto;
+  height: 40px;
+  padding-top: 6.5px;
+}
+#contactme:hover{
+  background-color:#36364d;
+  border: 1px solid #d1d1e6;
+}
+#contactme:hover p{
+  color: #d1d1e6;
+}
+#contactme:hover #emailContact{
+  background-image: url("assets/emailHover.png");
+}
