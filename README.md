@@ -1,2 +1,2 @@
 # Namesnipes-Website
-Website for my partner, @namesnipes!!!
+My website, designed by @willowred :)
