@@ -1,4 +1,4 @@
-@media (min-width:786px){
+@media (max-width:992px){
   .projectImage{
     order: -1;
   }
