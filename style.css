@@ -1,3 +1,15 @@
+@media (min-width:786px){
+  .projectImage{
+    order: -1;
+  }
+}
+
+@media (min-width:992px){
+  .projectImage{
+    order: unset;
+  }
+}
+
 @font-face{
   font-family: "Nunito";
   src: url("assets/Nunito-Regular.ttf");
