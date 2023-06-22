@@ -1,0 +1,6 @@
+.btn-outline-light {
+	border-color: white;
+    --bs-btn-active-bg: #F96F5C;
+    --bs-btn-border-color:unset;
+    --bs-btn-color:#d1d1e6;
+}

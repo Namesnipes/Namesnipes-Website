@@ -99,6 +99,23 @@ hr{
   color: #d1d1e6;
   font-weight: normal;
 }
+#filters input{
+  background-color: #F96F5C;
+}
+.dropDownClickable{
+  color:rgb(207, 229, 255);
+  font-size: 20px;
+  font-weight: bolder;  
+}
+.dataEntry{
+  color: #F96F5C;
+}
+.numberDataEntry{
+  color: rgb(253, 253, 163);
+}
+.noStyle{
+  list-style: none;
+}
 .projectText{
   background-color: none;
   padding: 15px;
@@ -162,6 +179,9 @@ hr{
 }
 .stillImage{
   display: block;
+}
+.subheader{
+  color: #d1d1e6;
 }
 .projectImage:hover .imageGif{
   display: block;
