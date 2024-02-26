@@ -1,0 +1,139 @@
+{
+    "projects": [
+        {
+            "name": "Career Cafe",
+            "description": "A discussion forum for professionals to share job opportunities and discuss career related topics. Front and back end fully implemented.",
+            "links": {
+                "github": "https://github.com/COSC360/project-azipis"
+            },
+            "languages": [
+                "PHP (PHPUnit, PHPMailer)",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/career_cafe.png"
+        },
+        {
+            "name": "A* Pathfinding With Portals",
+            "description": "An interactive implementation of the A* algorithm to find the shortest path between two points, spiced up with teleporation using portals!",
+            "links": {
+                "github": "https://github.com/Namesnipes/Pathfinding",
+                "live": "https://namesnipes.github.io/Pathfinding/"
+            },
+            "languages": [
+                "JavaScript (p5.js)",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/a_star.png",
+            "preview": "assets/a_star.gif"
+        },
+        {
+            "priority": 3,
+            "name": "Flappy Bird Genetic Algorithm",
+            "description": "A JavaScript implementation of the genetic algorithm described in the paper <a href='https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf' target='_blank'>Neuroevolution of Augmenting Topologies</a>. It's being used here to learn the game flappy bird.",
+            "links": {
+                "github": "https://github.com/Namesnipes/Genetic-Flappy",
+                "live": "https://namesnipes.github.io/Genetic-Flappy/"
+            },
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/flappyBirdThumbnail.png",
+            "preview": "assets/flappyBird.gif"
+        },
+        {
+            "name": "Dot Swarm Pathfinding",
+            "description": "A small, interactive game where you guide a swarm of black dots around obstacles to a goal. The dots are controlled by a genetic algorithm, which I specifically made to be interactive to encourage experimenting.",
+            "links": {
+                "github": "https://github.com/Namesnipes/Dots-Genetic-Algorithm",
+                "live": "https://namesnipes.github.io/Dots-Genetic-Algorithm/"
+            },
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/dotSwarmThumbnail.png",
+            "preview": "assets/dotSwarm.gif"
+        },
+        {
+            "priority": 2,
+            "name": "Growth Tracker",
+            "description": "A plant themed journaling extension with 2500+ users over Firefox and Chrome.",
+            "links": {
+                "github": "https://github.com/Namesnipes/Growth-Tracker",
+                "live": "https://addons.mozilla.org/en-US/firefox/addon/growth-tracker"
+            },
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/growthThumbnail.png",
+            "preview": "assets/GrowthTracker.gif"
+        },
+        {
+            "name": "Tetris Clone",
+            "description": "My version of modern Tetris. One of my first personal projects in only HTML and JavaScript. I came back to this project a few years later to improve aesthetics and performance.",
+            "links": {
+                "github": "https://github.com/Namesnipes/tetris",
+                "live": "https://namesnipes.github.io/tetris/"
+            },
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/tetrisThumbnail.png",
+            "preview": "assets/tetris.gif"
+        },
+        {
+            "name": "Hi-Stress",
+            "description": "An educational game created to highlight the importance of mental health for balancing a busy schedule as a college student. An entry for the WinHacks 2022 hackathon, created in collaboration with a friend.",
+            "links": {
+                "github": "https://github.com/Namesnipes/hiStress",
+                "live": "https://namesnipes.github.io/hiStress/"
+            },
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/hiStressThumbnail.png",
+            "preview": "assets/hiStress.gif"
+        },
+        {
+            "priority": 1,
+            "name": "Group Sentimental",
+            "description": "A journalling website using sentiment analysis and regression to predict your mood. The 2nd place winner of BCHacks 5.0 🏆",
+            "links": {
+                "live": "https://devpost.com/software/group-sentimental"
+            },
+            "languages": [
+                "TypeScript (Next.js)",
+                "HTML",
+                "CSS (Tailwind)"
+            ],
+            "thumbnail": "assets/sentiment.jpg",
+            "preview": "assets/sentiment.gif"
+        },
+        {
+            "name": "Save-on Points",
+            "description": "Scrapes data directly from the Save-On Foods website to mathmatically calculate the best deals for you.",
+            "links": {
+                "live": "https://saveontracker.vercel.app/",
+                "github": "https://github.com/Namesnipes/saveontracker"
+            },
+            "languages": [
+                "JavaScript (React, Firebase)",
+                "HTML",
+                "CSS"
+            ],
+            "thumbnail": "assets/saveonpoints.png"
+        }
+    ]
+}

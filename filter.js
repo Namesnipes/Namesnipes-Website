@@ -1,6 +1,6 @@
-let projects = document.getElementsByClassName("projectDisplay")
-let checkedDict = {}
-let allTech = getAllTechUsed()
+let projects;
+let checkedDict;
+let allTech;
 
 function displayFilteredProjects() {
     let count = 0
@@ -26,6 +26,7 @@ function displayFilteredProjects() {
         } else {
             count++
             $(proj).removeClass("d-none")
+            $(proj).addClass("is-active")
         }
     }
 
@@ -40,31 +41,36 @@ function getAllTechUsed() {
         let techUsed = $(proj).find(".techUsed").text().trim()
         techUsed = techUsed.replace(/ *\([^)]*\) */g, ""); // remove everything inside paraenthesis
         let langs = techUsed.split(",")
-        for(let j = 0; j < langs.length; j++){
+        for (let j = 0; j < langs.length; j++) {
             allTechUsed.push(langs[j].trim())
         }
     }
     return [...new Set(allTechUsed)]; //remove duplicates from array
 }
 
-function addFilterButton(name){
+function addFilterButton(name) {
     let count = $("[name=tech]").length + 1
     let inp = $("<input type=\"checkbox\" class=\"btn-check\" id=\"btncheck" + count + "\" name=\"tech\" autocomplete=\"off\">")
     let lab = $("<label class=\"btn btn-outline-light\" for=\"btncheck" + count + "\">" + name + "</label>")
-    $("#filters").append(inp,lab)
+    $("#filters").append(inp, lab)
 }
 
-for(let i = 0; i < allTech.length; i++){
-    addFilterButton(allTech[i])
-    checkedDict[allTech[i]] = false
-}
-//addFilterButton("test")
-displayFilteredProjects()
 
-$('input[name=tech]').change(function () {
-    let checked = $(this).is(':checked')
-    let techName = $(this).next().text()
-    checkedDict[techName] = checked
+$(document).ready(function () {
+    projects = document.getElementsByClassName("projectDisplay")
+    checkedDict = {}
+    allTech = getAllTechUsed()
+    for (let i = 0; i < allTech.length; i++) {
+        addFilterButton(allTech[i])
+        checkedDict[allTech[i]] = false
+    }
     displayFilteredProjects()
+
+    $('input[name=tech]').change(function () {
+        let checked = $(this).is(':checked')
+        let techName = $(this).next().text()
+        checkedDict[techName] = checked
+        displayFilteredProjects()
+    });
 });
 
