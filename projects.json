@@ -147,6 +147,6 @@
                 "AWS Services (S3, Lambda, DynamoDB)"
             ],
             "thumbnail": "assets/blur.png"
-        },
+        }
     ]
 }
