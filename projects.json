@@ -30,7 +30,7 @@
             "preview": "assets/a_star.gif"
         },
         {
-            "priority": 3,
+            "priority": 2,
             "name": "Flappy Bird Genetic Algorithm",
             "description": "A JavaScript implementation of the genetic algorithm described in the paper <a href='https://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf' target='_blank'>Neuroevolution of Augmenting Topologies</a>. It's being used here to learn the game flappy bird.",
             "links": {
@@ -61,12 +61,12 @@
             "preview": "assets/dotSwarm.gif"
         },
         {
-            "priority": 2,
+            "priority": 3,
             "name": "Growth Tracker",
-            "description": "A plant themed journaling extension with 2500+ users over Firefox and Chrome.",
+            "description": "A plant themed journaling extension with 4000+ users over Firefox and Chrome.",
             "links": {
                 "github": "https://github.com/Namesnipes/Growth-Tracker",
-                "live": "https://addons.mozilla.org/en-US/firefox/addon/growth-tracker"
+                "live": "https://chromewebstore.google.com/detail/growth-tracker/pkbbochahepbkpkkidbhhdjhmjafgncm"
             },
             "languages": [
                 "JavaScript",
@@ -114,9 +114,9 @@
                 "live": "https://devpost.com/software/group-sentimental"
             },
             "languages": [
-                "TypeScript (Next.js)",
+                "Next.js",
                 "HTML",
-                "CSS (Tailwind)"
+                "Tailwind"
             ],
             "thumbnail": "assets/sentiment.jpg",
             "preview": "assets/sentiment.gif"
@@ -129,20 +129,21 @@
                 "github": "https://github.com/Namesnipes/saveontracker"
             },
             "languages": [
-                "JavaScript (React, Firebase)",
-                "HTML",
-                "CSS"
+                "React",
+                "Firebase"
             ],
             "thumbnail": "assets/saveonpoints.png"
         },
         {
             "name": "blur",
+            "priority": 2,
             "description": "A collaborative project to provide an open-source platform for easy video creation and sharing with specific users. My undergraduate capstone project",
             "links": {
-                "github": "https://github.com/COSC-499-W2023/year-long-project-team-5"
+                "github": "https://github.com/COSC-499-W2023/year-long-project-team-5",
+                "live": "https://youtu.be/m1z9WqPFyCY"
             },
             "languages": [
-                "JavaScript (React)",
+                "React",
                 "GraphQL",
                 "AWS Services (S3, Lambda, DynamoDB)"
             ],
