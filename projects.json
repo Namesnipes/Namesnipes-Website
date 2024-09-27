@@ -134,6 +134,19 @@
                 "CSS"
             ],
             "thumbnail": "assets/saveonpoints.png"
-        }
+        },
+        {
+            "name": "blur",
+            "description": "A collaborative project to provide an open-source platform for easy video creation and sharing with specific users. My undergraduate capstone project",
+            "links": {
+                "github": "https://github.com/COSC-499-W2023/year-long-project-team-5"
+            },
+            "languages": [
+                "JavaScript (React)",
+                "GraphQL",
+                "AWS Services (S3, Lambda, DynamoDB)"
+            ],
+            "thumbnail": "assets/blur.png"
+        },
     ]
 }
